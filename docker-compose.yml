@@ -1,0 +1,25 @@
+services:
+  postgres:
+    image: postgres:17
+    container_name: goodfolk_backend_starter_db
+    restart: always
+
+    environment:
+      POSTGRES_USER: goodfolk
+      POSTGRES_PASSWORD: goodfolk_password
+      POSTGRES_DB: goodfolk_backend_starter
+
+    ports:
+      - "5433:5432"
+
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U goodfolk -d goodfolk_backend_starter"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+volumes:
+  postgres_data:
