@@ -1,4 +1,4 @@
-# Goodfolk Backend Starter
+# Backend Starter
 
 A reusable TypeScript backend foundation for building authenticated GraphQL APIs without rebuilding the same setup from scratch.
 
