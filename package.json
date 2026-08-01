@@ -1,7 +1,7 @@
 {
-  "name": "goodfolkbackendstarter",
+  "name": "backendstarter",
   "version": "1.0.0",
-  "description": "Backend starter for Goodfolk",
+  "description": "Backend starter project with Express, GraphQL, Prisma, and PostgreSQL",
   "main": "index.js",
   "scripts": {
     "dev": "nodemon --watch src --ext ts --exec tsx src/server.ts",
