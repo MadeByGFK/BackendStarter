@@ -16,7 +16,7 @@ Many backend projects begin with the same work:
 - Seed development data
 - Make local setup repeatable
 
-Goodfolk Backend Starter handles that foundation so development can begin with the product-specific features instead.
+Backend Starter handles that foundation so development can begin with the product-specific features instead.
 
 ## Included Features
 
