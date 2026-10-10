@@ -61,7 +61,7 @@ Install the following before starting:
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/GFKolby/BackendStarter.git
+git clone https://github.com/MadeByGFK/BackendStarter.git
 cd BackendStarter
 ```
 
@@ -274,4 +274,4 @@ The starter provides a working local backend foundation and is intended as a bas
 
 ## Author
 
-Built by [Kolby Kinsey](https://github.com/GFKolby) as a reusable foundation for APIs, SaaS products, and client backend projects.
+Built by [GFK](https://github.com/MadeByGFK) as a reusable foundation for APIs, SaaS products, and client backend projects.
